@@ -6,7 +6,34 @@ JSON + Canvas 기반 크리에이티브 포트폴리오. 누구나 자신만의 
 
 ---
 
-## 참여하기 (처음부터 끝까지)
+## Claude Code로 참여하기 (가장 빠른 방법)
+
+터미널에서 아래 내용을 그대로 따라하면 됩니다.
+
+```bash
+# 1. GitHub에서 이 저장소를 Fork (웹에서 Fork 버튼 클릭)
+
+# 2. Fork한 저장소 클론
+git clone https://github.com/{본인-github-id}/vibe_web.git
+cd vibe_web
+npm install
+
+# 3. Claude Code 실행
+claude
+```
+
+Claude Code에게 이렇게 말하세요:
+
+> **"내 ID는 {your-id}야. 캔버스에 {원하는 비주얼 설명}을 그려줘. 파일 만들고 config에 추가하고, 브랜치 만들어서 커밋 & 푸시하고 PR까지 올려줘."**
+
+예시:
+> "내 ID는 hong-dev야. 캔버스에 네온 파티클이 원형으로 회전하는 비주얼을 그려줘. 파일 만들고 config에 추가하고, 브랜치 만들어서 커밋 & 푸시하고 PR까지 올려줘."
+
+Claude Code가 알아서 파일 3개 생성 → 로컬 테스트 → 브랜치 → 커밋 → PR까지 해줍니다.
+
+---
+
+## 수동으로 참여하기 (단계별)
 
 ### 1. 이 저장소를 Fork
 
